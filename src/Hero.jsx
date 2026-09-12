@@ -18,7 +18,7 @@ export default function Hero() {
       <Entry
         key={entry.id}
         entry={entry}
-        
+        // {...entry} to use spread operator we should do porps.id nto props.entry.id
       />
       // <Entry
       //   key={entry.id}

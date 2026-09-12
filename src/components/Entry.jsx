@@ -1,12 +1,11 @@
 import { MapPinCheckInside } from "lucide-react";
-export default function Entry(props){
-
-    return(
-        <div>
-            <div className="flex p-10 gap-6">
+export default function Entry(props) {
+  return (
+    <div>
+      <div className="flex p-10 gap-6">
         <img
           src={props.img.src}
-          alt={props.img.alt}
+          alt={props.img.alt} 
           className="h-[204px] w-[152px] object-cover rounded-md"
         />
         <div className="px-5">
@@ -15,20 +14,15 @@ export default function Entry(props){
               <MapPinCheckInside size={14} />
               {props.country}
             </span>
-            <a
-              href={props.googleMapsLink}
-              className="underline"
-            >
+            <a href={props.googleMapsLink} className="underline">
               View on Google Maps
             </a>
           </div>
           <h1 className="text-3xl font-bold">{props.title}</h1>
           <p className="font-bold mt-5">{props.date}</p>
-          <p className="mt-2 leading-5">
-           {props.text}
-          </p>
+          <p className="mt-2 leading-5">{props.text}</p>
         </div>
       </div>
-        </div>
-    );
+    </div>
+  );
 }

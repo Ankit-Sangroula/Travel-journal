@@ -1,16 +1,47 @@
-# React + Vite
+# ✈️ Travel Journal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **React Travel Journal** project built as a self-recap project while learning React.
 
-Currently, two official plugins are available:
+## 📚 What I Learned
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React Components
+- Props
+- Destructuring Props
+- Passing non-string props
+- Importing static assets
+- Reusable Components
+- `.map()` in React
+- Rendering arrays
+- Mapping components
+- `key` prop
+- Passing objects as props
+- Spread props
 
-## React Compiler
+## 🛠️ Built With
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- Tailwind CSS
+- Vite
 
-## Expanding the ESLint configuration
+## 🎯 Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A simple **Travel Journal** that displays multiple travel entries using reusable React components and data from an array.
+
+The project helped me understand how to:
+
+- Pass data from parent to child components using **props**
+- Create **reusable components**
+- Use `.map()` to generate multiple components
+- Pass objects and spread props
+- Render dynamic content from an array
+
+## 📸 Preview
+
+A Travel Journal displaying multiple travel entries with location, dates, descriptions, and images.
+
+---
+
+### 📌 Purpose
+
+This project was built mainly for **React practice and revision**, not as a production project.
